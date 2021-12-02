@@ -3,7 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/bell_icon.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/comment_button.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo1.xml" value="0.1953125" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo_hitam_1.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo_hitam_putih_1.xml" value="0.25" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo_normal.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo_normal_2.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo_putih_1.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo_putih_2.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/more_button.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/save_button.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/search_button.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_detail_news.xml" value="0.25" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_home.xml" value="0.16" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_splash.xml" value="0.18" />
       </map>
     </option>
   </component>

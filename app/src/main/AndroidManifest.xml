@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KijiNews">
         <activity
-            android:name=".MainActivity"
+            android:name=".Detail_News_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
