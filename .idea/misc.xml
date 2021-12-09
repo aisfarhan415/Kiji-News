@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable-v24/rounded_font_category.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/bell_icon.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/bookmark.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/comment.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/comment_button.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/foreground_header_photo.xml" value="0.25" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/ic_baseline_bookmark_24.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/ic_kotak_headline.xml" value="0.18" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/kotak_sedang.xml" value="0.11284722222222222" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo1.xml" value="0.1953125" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo_hitam_1.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo_hitam_putih_1.xml" value="0.25" />
@@ -14,12 +21,16 @@
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo_putih_1.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/logo_putih_2.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/more_button.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/rectangle_detail.xml" value="0.18" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/rounded_font_background.xml" value="0.33" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/save_button.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/search_button.xml" value="0.16041666666666668" />
-        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_detail_news.xml" value="0.25" />
-        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_home.xml" value="0.16" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/shadow.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_detail_news.xml" value="0.16" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_splash.xml" value="0.18" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/card_home.xml" value="0.5" />
       </map>
     </option>
   </component>

@@ -28,4 +28,116 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/bell_icon" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="62dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Politics"
+        android:textColor="#AEAEAE"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/logo_imageView_detail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="331sp"
+        android:layout_height="69sp"
+        android:layout_marginTop="118dp"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="Former Japan PM tells China, 'a Taiwan emergency is a Japanese emergency'"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="331dp"
+        android:layout_height="342dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Taipei, Taiwan (Reuters)Japan and the United States could not stand by if China attacked Taiwan, and Beijing needs to understand this, former Japanese Prime Minister Shinzo Abe said on Wednesday.  Tensions over Chinese-claimed Taiwan have risen as President Xi Jinping seeks to assert his country's sovereignty claims against the democratically ruled island. Taiwan's government says it wants peace, but will defend itself if needed. Speaking virtually to a forum organized by Taiwanese think tank the Institute for National Policy Research, Abe noted the Senkaku islands -- which China calls the Diaoyu Islands -- Sakishima islands and Yonaguni island are a mere 100 kilometers (62 miles) or so away from Taiwan. An armed invasion of Taiwan would be a grave danger to Japan, he added. "
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:justificationMode="inter_word"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Story By Reuters"
+        android:textColor="#A6A6A6"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="10 Mins Ago"
+        android:textColor="#A6A6A6"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:src="@drawable/rectangle_detail" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="678dp"
+        android:src="@drawable/shadow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="122dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/comment_button" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/save_button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
