@@ -27,11 +27,11 @@
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/save_button.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/search_button.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/drawable/shadow.xml" value="0.16041666666666668" />
-        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_detail_news.xml" value="0.16" />
-        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_detail_news.xml" value="0.33" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_splash.xml" value="0.18" />
-        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/card_home.xml" value="0.2" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/activity_splash.xml" value="0.75" />
+        <entry key="..\:/Users/aisfa/AndroidStudioProjects/KijiNews/app/src/main/res/layout/card_home.xml" value="0.67" />
       </map>
     </option>
   </component>
