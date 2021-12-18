@@ -1,12 +1,12 @@
 package com.example.kijinews;
 
 public class onearticle {
-    private onearticle article;
+    private kiji article;
 
-    public onearticle getArticle(){
+    public kiji getArticle(){
         return article;
     }
-    public void setArticle(onearticle article){
+    public void setArticle(kiji article){
         this.article = article;
     }
 }

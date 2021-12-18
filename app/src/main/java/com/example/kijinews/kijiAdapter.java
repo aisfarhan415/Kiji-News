@@ -3,11 +3,15 @@ package com.example.kijinews;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 
 import java.util.ArrayList;
 
@@ -15,7 +19,7 @@ public class kijiAdapter extends RecyclerView.Adapter<kijiAdapter.kijiHolder> {
     private ArrayList<kiji> kijis;
     private RecyclerListener recyclerListener;
 
-    public kijiAdapter(ArrayList<kiji> restaurants, RecyclerListener recyclerListener) {
+    public kijiAdapter(ArrayList<kiji> kijis, RecyclerListener recyclerListener) {
         this.kijis = kijis;
         this.recyclerListener = recyclerListener;
     }
@@ -35,7 +39,10 @@ public class kijiAdapter extends RecyclerView.Adapter<kijiAdapter.kijiHolder> {
         kiji kiji = kijis.get(position);
         holder.titleItem.setText(kiji.getTitle());
         holder.categoryItem.setText(kiji.getCategory());
-        holder.photoItem.setText(kiji.getPicture());
+        Glide.with(holder.itemView.getContext())
+                .load(kiji.getPicture())
+                .apply(new RequestOptions().override(500))
+                .into(holder.photoItem);
     }
 
     @Override
@@ -48,13 +55,14 @@ public class kijiAdapter extends RecyclerView.Adapter<kijiAdapter.kijiHolder> {
     }
 
     public class kijiHolder extends RecyclerView.ViewHolder {
-        TextView titleItem, categoryItem, descriptionItem, photoItem;
+        TextView titleItem, categoryItem, descriptionItem;
+        ImageView photoItem;
 
         public kijiHolder(@NonNull View itemView) {
             super(itemView);
             titleItem    = itemView.findViewById(R.id.cardhome_textView_title);
-            categoryItem = categoryItem.findViewById(R.id.cardhome_textView_category);
-            photoItem = photoItem.findViewById(R.id.cardhome_imageView_image);
+            categoryItem = itemView.findViewById(R.id.cardhome_textView_category);
+            photoItem = itemView.findViewById(R.id.cardhome_imageView_image);
             itemView.setOnClickListener(clickListener);
         }
 
