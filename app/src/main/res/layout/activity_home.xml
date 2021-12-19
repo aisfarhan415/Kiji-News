@@ -42,12 +42,12 @@
     <ImageView
         android:id="@+id/home_imageView_headline"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="361dp"
         android:layout_marginTop="150dp"
+        android:src="@drawable/ic_kotak_headline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/ic_kotak_headline" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/home_imageView_shadow"
