@@ -60,25 +60,6 @@
         app:srcCompat="@drawable/foreground_header_photo" />
 
     <TextView
-        android:id="@+id/home_kategori_headline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="4dp"
-        android:background="@drawable/rounded_font_background"
-        android:fontFamily="@font/merriweather_bold"
-        android:paddingLeft="8sp"
-        android:paddingTop="2sp"
-        android:paddingRight="8sp"
-        android:paddingBottom="2sp"
-        android:text="Politics"
-        android:textColor="@color/background"
-        android:textSize="9sp"
-        app:layout_constraintBottom_toTopOf="@+id/detail_textView_newstitle"
-        app:layout_constraintStart_toStartOf="@+id/home_imageView_headline" />
-
-    <TextView
         android:id="@+id/home_textView_headline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -119,10 +100,15 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="118dp"
+        android:layout_marginEnd="234dp"
+        android:layout_marginRight="234dp"
+        android:layout_marginBottom="14dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="Politics"
         android:textColor="#AEAEAE"
         android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/home_imageView_headline"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/home_textView_headline"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -147,10 +133,15 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="118dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginRight="158dp"
+        android:layout_marginBottom="14dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="Celebrity"
         android:textColor="#AEAEAE"
         android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/home_imageView_headline"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/detail__textView_category"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -161,10 +152,15 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="118dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="14dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="Tech"
         android:textColor="#AEAEAE"
         android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/home_imageView_headline"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/home_textView_celebrity"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -175,10 +171,15 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="118dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="14dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="World"
         android:textColor="#AEAEAE"
         android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/home_imageView_headline"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/home_textView_tech"
         app:layout_constraintTop_toTopOf="parent" />
 
